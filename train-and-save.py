@@ -48,5 +48,5 @@ print("Test loss:", score[0])
 print("Test accuracy:", score[1])
 
 # Save the model
-model.save(model_filename)
+model.save("models/" + model_filename)
 print(f"Model saved to disk as {model_filename}.")
